@@ -1,0 +1,39 @@
+html {
+ 
+	background-color: #00539f;
+}
+
+body {
+  width: 600px;
+  margin: 5%, 0;
+  background-color: #ff9500;
+  padding: 0 50px 50px 50px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+
+#page1 {
+	color: red;
+	width: 500px;
+	border: 1px solid black;
+}
+/* h1:hover {
+	color: white;
+	background-color: black;
+	width: 200px;
+} */
+h2,
+h3	{
+	color: blue;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
