@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My test page</title>
+	<link href="styles/firstStyle.css" rel="stylesheet">
+<!--	
+https://drive.google.com/uc?export=download&id=1xB4eoIAvLMmqbGFs5p47y9UQstD6YsFp
+https://dlinko365-my.sharepoint.com/:u:/r/personal/greg_wang_dlinkcorp_com/Documents/Shared%20with%20Everyone/JS/styles/firstStyle.css?csf=1&web=1&e=0q7a5z
+https://dlinko365-my.sharepoint.com/personal/greg_wang_dlinkcorp_com/Documents/Shared%20with%20Everyone/JS/styles/firstStyle.css
+https://dlinko365-my.sharepoint.com/:u:/r/personal/greg_wang_dlinkcorp_com/Documents/Shared%20with%20Everyone/JS/styles/firstStyle.css?csf=1&web=1&e=TEKay6
+CSS File 放在 Google Drive, 分享後，其連結URL之取的
+https://dlinko365-my.sharepoint.com/:u:/r/personal/greg_wang_dlinkcorp_com/Documents/Shared%20with%20Everyone/JS/styles/firstStyle.css?csf=1&web=1&e=0Ezuwu
+<Style>
+		#page1 {
+	    color: red;
+		width: 1000px;
+		border: 1px solid black;
+	}
+		h1:hover {
+	  color: green;
+	}
+		h2,
+		h3		{
+	  color: blue;
+	}
+		img {
+		  width: 200px;
+		  border: 1px solid red;
+		}
+	</Style> -->
+  </head>
+  <body>
+    <img src="images/DES-105.png" alt="My test image" />
+	<h1>My main title</h1>
+<h2>My top level heading</h2>
+<h3>My subheading</h3>
+<h4>My sub-subheading</h4>
+
+<p id = "page1">At Mozilla, we're a global community of</p>
+
+<ol>
+  <li>technologists</li>
+  <li>thinkers</li>
+  <li>builders</li>
+</ol>
+
+<p id ="2" >working together…</p>
+
+<script>
+const myImage = document.querySelector("img");
+
+myImage.onclick = () => {
+  const mySrc = myImage.getAttribute("src");
+  if (mySrc === "images/DES-105.png") {
+    myImage.setAttribute("src", "images/DGS-1008.png");
+  } else {
+    myImage.setAttribute("src", "images/DES-105.png");
+  }
+};
+</script>
+
+<a href ="https://www.google.com/?gws_rd=ssl">Google</a>
+  </body>
+</html>
